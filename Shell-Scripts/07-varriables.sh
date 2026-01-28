@@ -1,8 +1,8 @@
 #!/bin/bash
 
-DATE=$DATE
+DATE=$(date +%Y-%m-%d)
 echo "Today's date is: $DATE"
-TIME=$TIME
+TIME=$(date +%H:%M:%S)
 echo "Current time is: $TIME"
 USER=$USER
 echo "Logged in user is: $USER"
