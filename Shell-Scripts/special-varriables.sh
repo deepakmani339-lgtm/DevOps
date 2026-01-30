@@ -11,3 +11,4 @@ echo the second argument passed to script is: $2
 echo what parameter number 4 passed to script is: ${4}
 echo the last argument passed to script is: ${!#}
 echo the penultimate argument passed to script is: ${!#-1}
+echo "current working directory is: $PWD"
