@@ -16,4 +16,4 @@ sleep 10 # Sleep for 10 seconds to demonstrate the process ID
 echo "After sleep, the process ID is still: $$"
 echo "After sleep, the last command exit status is: $?"
 echo "After sleep, the script name is still: $0"
-echo "After sleep, the first argument passed to script is still: $1"
+echo "After sleep, the process ID is still: $!"
