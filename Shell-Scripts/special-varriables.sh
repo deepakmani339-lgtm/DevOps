@@ -8,3 +8,6 @@ echo the last command exit status is: $?
 echo the script name is: $0
 echo the first argument passed to script is: $1
 echo the second argument passed to script is: $2
+echo what parameter number 4 passed to script is: ${4}
+echo the last argument passed to script is: ${!#}
+echo the penultimate argument passed to script is: ${!#-1}
